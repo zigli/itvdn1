@@ -15,5 +15,11 @@ public class Main {
             System.out.println(item);
         }
 
+        Iterator<Integer> iterator = arrayList.iterator();
+        while (iterator.hasNext()){
+            //System.out.println(iterator.next());
+            Integer integer = iterator.next();
+            System.out.println(integer);
+        }
     }
 }
